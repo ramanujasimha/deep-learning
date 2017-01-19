@@ -212,7 +212,7 @@ def test_stacked_autoencoder(activation='sigmoid',
                              batch_size=16, 
                              input_file='data/mnist.pkl.gz'
 ):
-    """This function is used to test the working of class StackedAutoencoder. 
+    """This function is used to test working of class StackedAutoencoder. 
     
     Once hidden representation of instances is obtained from stacked autoencoder, 
     this set of features is fed to a Random Foreset classifier. For fun, accuracy
