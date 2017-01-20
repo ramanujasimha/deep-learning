@@ -159,7 +159,7 @@ class StackedAutoencoder(object):
         param batch_size: number of instances used to optmize model parameters
                       set to 16 by default
         """
-        # transform representation from class to categorical
+        # transform representation from binary to categorical
         Y_train = to_categorical(y_train, nb_classes=None)
         Y_valid = to_categorical(y_valid, nb_classes=None)
 
