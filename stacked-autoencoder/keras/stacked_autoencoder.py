@@ -1,5 +1,7 @@
 """ 
- Author: Ramanuja Simha
+ Author: Ramanuja Simha - https://github.com/ramanujasimha
+ License: MIT License
+
  This piece of code attempts to implement a stacked autoencoder using 
  constructs provided by a high-level neural network library named Keras.
  NOTE: Exception handling has yet to be implemented extensively. 
