@@ -1,6 +1,6 @@
 # Deep Learning Code
 
-Currently, this repository contains an implementation of a stacked autoencoder using a high-level Python library named Keras. Look out for further updates. 
+This repository contains Python implementations of deep learning algorithms. Currently, we have here a stacked autoencoder using a high-level Python library named Keras. Watch for further updates. 
 
 ## License
 
