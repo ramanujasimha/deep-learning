@@ -212,7 +212,7 @@ def test_stacked_autoencoder(activation='sigmoid',
                              metrics = ['accuracy','fmeasure'],
                              training_epochs=5, 
                              batch_size=16, 
-                             input_file='data/mnist.pkl.gz'
+                             input_file='../../data/mnist.pkl.gz'
 ):
     """This function is used to test working of class StackedAutoencoder. 
     
