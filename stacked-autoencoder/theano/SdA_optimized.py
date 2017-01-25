@@ -2,7 +2,7 @@
  Code based on SdA by Vincent et al: 
  http://deeplearning.net/tutorial/SdA.html
 
- Code optmized based on suggested tricks by: Ramanuja Simha
+ Code optmized (using suggested tricks) by: Ramanuja Simha
 """
 
 from __future__ import print_function
@@ -373,7 +373,7 @@ def run_dA(numpy_rng, train_set_x, size, layer=0, W=None, bhid=None,
 
 def test_SdAOptimized(finetune_lr=0.1, pretraining_epochs=15,
             	      pretrain_lr=0.001, training_epochs=1000,
-             	      dataset='../data/mnist.pkl.gz', batch_size=1,
+             	      dataset='../../data/mnist.pkl.gz', batch_size=1,
                       n_ins=28*28, n_outs=10,
                       hidden_layers_sizes=[500, 500, 500],
                       corruption_levels = [.1, .2, .3]
