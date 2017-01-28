@@ -164,7 +164,7 @@ class StackedAutoencoder(object):
         Y_valid = to_categorical(y_valid, nb_classes=None)
 
         # train model
-        print "Training stacked denoising autoencoder ..."
+        print "Training stacked autoencoder ..."
         self.model.compile(loss=loss, optimizer=optimizer, metrics=metrics)
         if class_weights is None:
             self.model.fit(x=X_train, y=Y_train,
@@ -212,7 +212,7 @@ def test_stacked_autoencoder(activation='sigmoid',
                              metrics = ['accuracy','fmeasure'],
                              training_epochs=5, 
                              batch_size=16, 
-                             input_file='../../data/mnist.pkl.gz'
+                             input_file='data/mnist.pkl.gz'
 ):
     """This function is used to test working of class StackedAutoencoder. 
     
