@@ -2,7 +2,10 @@
  Code based on SdA by Vincent et al: 
  http://deeplearning.net/tutorial/SdA.html
 
- Code optmized (using suggested tricks) by: Ramanuja Simha
+ Code optmized by: Ramanuja Simha
+ New/significantly-modified functions:
+  - test_SdAOptimized
+  - run_dA
 """
 
 from __future__ import print_function
